@@ -22,3 +22,6 @@ $ python run.py
 > Amunisi akan bertambah setiap jam, jika lu ga sabar lu bisa tambah amunisi di menu no 3
 
 Gua sebagai author cuma bikin dan berbagi script gabut ini kepada kaum rebahan enjoy aman. Segala penyalahgunaan script diluar tanggung jawab gua!
+
+## Testimoni
+![korban kangspam](./Lib/ss1.jpg)
