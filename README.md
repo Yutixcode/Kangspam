@@ -10,9 +10,9 @@ Padahal gua udah sayang banget, jarang2 gua sayang ke cewe sampe setolol ini.
 ```php
 $ pkg update && pkg upgrade -y
 $ pkg install git python python-pip
-$ pip install -r requirements.txt
 $ git clone https://github.com/Yutixcode/Kangspam
 $ cd Kangspam
+$ pip install -r requirements.txt
 $ python run.py
 ```
 
