@@ -1,3 +1,5 @@
+# Liat apa lo tolol ?
+
 reset  = '\x1b[0m'
 bold   = '\x1b[1m'
 dark   = '\x1b[90m'
@@ -15,6 +17,7 @@ BLUE   = '\x1b[94m'
 PURPLE = '\x1b[95m'
 CYAN   = '\x1b[96m'
 WHITE  = '\x1b[97m'
+liner  = '\x1b[4m'
 
 import os
 import uuid
@@ -28,6 +31,7 @@ import urllib.parse
 import requests as req
 req.urllib3.disable_warnings()
 from bs4 import BeautifulSoup as bs
+from concurrent.futures import ThreadPoolExecutor as Yutix
 
 def banner():
 	os.system('cls' if os.name == 'nt' else 'clear')
@@ -35,13 +39,11 @@ def banner():
 	print(f"""{bold}\n
  {WHITE}_  _ ____ {RED}_{WHITE}  _ ____ {warna}____ ___  ____ _  _ 
  {WHITE}|_/  |__| |{RED}\ {WHITE}| | __ {warna}[__  |__] |__| |\/| 
- {WHITE}| \_ |  | |{RED} \{WHITE}| |__] {warna}___] |    |  | |  | {reset}{blue}v3.0
+ {WHITE}| \_ |  | |{RED} \{WHITE}| |__] {warna}___] |    |  | |  |  {reset}{white}{liner}v4{reset}
  
   {white}Ganggu temen lu yg doyan banget pushrank
   {dark}
-   - Dibuat oleh Yutix
-   - t.me/yutixverse
-   - github.com/yutixcode
-   - facebook.com/njnk.xnxx
-   - yutixcode.blogspot.com
+   -- T.me/yutixverse
+   -- Github.com/yutixcode
+   -- Facebook.com/njnk.xnxx
 	""")
