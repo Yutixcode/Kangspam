@@ -18,7 +18,7 @@ $ python run.py
 
 > Di update v4 ini lu bisa kirim 100 otp kurang dari 1 menit. Gak percaya? coba aja sendiri 
 
-![Tool taik, gak guna](./Lib/ssv4.jpg)
+![Tool taik, gak guna](./Lib/ssv4.png)
 ----------
 
 > Amunisi akan bertambah setiap jam, jika lu ga sabar lu bisa tambah amunisi di menu no 3
