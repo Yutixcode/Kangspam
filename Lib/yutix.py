@@ -36,14 +36,11 @@ from concurrent.futures import ThreadPoolExecutor as Yutix
 def banner():
 	os.system('cls' if os.name == 'nt' else 'clear')
 	warna = random.choice([CYAN,PURPLE,GREEN,RED,YELLOW])
-	print(f"""{bold}\n
- {WHITE}_  _ ____ {RED}_{WHITE}  _ ____ {warna}____ ___  ____ _  _ 
- {WHITE}|_/  |__| |{RED}\ {WHITE}| | __ {warna}[__  |__] |__| |\/| 
- {WHITE}| \_ |  | |{RED} \{WHITE}| |__] {warna}___] |    |  | |  |  {reset}{white}{liner}v4{reset}
- 
-  {white}Ganggu temen lu yg doyan banget pushrank
-  {dark}
-   -- T.me/yutixverse
-   -- Github.com/yutixcode
-   -- Facebook.com/njnk.xnxx
+	print(f"""{bold}
+ {WHITE}_  _ ____ {RED}_{WHITE}  _ ____ 
+ {WHITE}|_/  |__| |{RED}\ {WHITE}| | __  {reset}{white}versi: {liner}{yellow}5{reset}{bold}
+ {WHITE}| \_ |  | |{RED} \{WHITE}| |__]  {reset}{white}author: {liner}Yutix{reset}{bold}
+ {warna}____ ___  ____ _  _  {white}{dark}~ {liner}t.me/yutixverse{reset}{bold}
+ {warna}[__  |__] |__| |\/|  {white}{dark}~ {liner}github.com/yutixcode{reset}{bold}
+ {warna}___] |    |  | |  |  {white}{dark}~ {liner}facebook.com/njnk.xnxx{reset}
 	""")
